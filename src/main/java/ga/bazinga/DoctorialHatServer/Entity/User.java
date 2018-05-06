@@ -13,5 +13,6 @@ public class User {
 
     @Indexed(unique = true, direction = IndexDirection.DESCENDING, dropDups = true)
     private String phone;
+
     private String password;
 }
